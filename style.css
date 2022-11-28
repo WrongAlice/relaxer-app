@@ -4,14 +4,14 @@
 
 body {
     background: #224941 url('./img/background.png') no-repeat center center/ cover;
-min-height: 100vh;
-color:white;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-overflow:hidden;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+    min-height: 100vh;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
 
 .container {
     display: flex;
@@ -24,18 +24,19 @@ align-items: center;
     transform: scale(1)
 }
 
+
 .circle {
     background-color:#010f1c;
     height: 100%;
-width: 100%;
-border-radius: 50%;
-position: absolute;
-top: 0;
-left:0;
-z-index: -1;
-
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;    
 
 }
+
 
 .gradient-circle {
     height: 320px;
@@ -48,8 +49,7 @@ z-index: -1;
     background: conic-gradient(
         #55b7a4 0%,
         #4ca493 40%,
-        #fff 40%,
-        #fff 60%,
+       
         #336d62 60%,
         #2a5b52 100%
     );
@@ -62,6 +62,7 @@ z-index: -1;
     width: 20px;
     display: block;
 }
+
 
 .pointer-container {
     position: absolute;
@@ -85,7 +86,7 @@ transform: rotate(360deg)
 
 
 .container.grow {
-    animation: grow 4s linear forwards;
+    animation: grow 5s linear forwards;
 
 }
 @keyframes grow {
@@ -99,7 +100,7 @@ to {
 }
 
 .container.shrink {
-    animation: shrink 4s linear forwards;
+    animation: shrink 5s linear forwards;
 
 }
 @keyframes shrink {
@@ -111,3 +112,8 @@ to {
     transform: scale(1)
 }
 }
+
+/* .pause-button {
+ color: white;
+
+} */
